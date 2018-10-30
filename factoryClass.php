@@ -1,17 +1,17 @@
 <?php
-	
+	//林家豪测试
 	class factory{
-		private static $ins;
+		private static $inse;
 		private function __construct(){
 			spl_autoload_register(array(__CLASS__,'autoLoad'));
 		}
 		public static function getInstance(){
 			
-			if(!isset(self::$ins))
+			if(!isset(self::$inse))
 			{
-				self::$ins = new factory();
+				self::$inse = new factory();
 			}
-			return self::$ins;
+			return self::$inse;
 		}
 		public function autoLoad($conName){
 			
