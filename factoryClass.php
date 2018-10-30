@@ -1,5 +1,5 @@
 <?php
-	//林家豪测试
+	//林家豪哈哈哈哈
 	class factory{
 		private static $inse;
 		private function __construct(){
